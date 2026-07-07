@@ -2,7 +2,7 @@ import { useState } from "react"
 
 
 const App = () => {
-  const [title,setTitle]=useState("a")
+  const [title,setTitle]=useState("")
   const [details,setDetails]=useState("")
   const [task,setTask]= useState([])
   const deleteNotes=(i)=>{
